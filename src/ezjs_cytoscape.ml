@@ -85,7 +85,7 @@ class type cytoscape =
 
 type cytoscape_cs = (props t -> cytoscape t) constr
 
-let cytoscape_cs : cytoscape_cs = Unsafe.variable "cytoscape"
+let cytoscape_cs : cytoscape_cs = Unsafe.global ##. cytoscape
 
 let default_style : Unsafe.any style t js_array t =
   let node_style = Unsafe.coerce @@ object%js
