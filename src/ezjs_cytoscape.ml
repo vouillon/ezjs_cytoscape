@@ -50,8 +50,8 @@ class type props =
     method layout : layout_options t prop
     method zoom : int prop
     method pan : position t prop
-    method minZoom : float prop
-    method maxZoom : float prop
+    method minZoom : number_t prop
+    method maxZoom : number_t prop
     method zoomingEnabled : bool t prop
     method userZoomingEnabled : bool t prop
     method panningEnabled : bool t prop
@@ -68,8 +68,8 @@ class type props =
     method hideEdgesOnViewport : bool t prop
     method textureOnViewport : bool t prop
     method motionBlur : bool t prop
-    method motionBlurOpacity : float prop
-    method wheelSensitivity : float prop
+    method motionBlurOpacity : number_t prop
+    method wheelSensitivity : number_t prop
     method pixelRatio : js_string t prop
   end
 
