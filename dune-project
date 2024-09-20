@@ -20,4 +20,4 @@
  (depends
   (ocaml (>= 4.05))
   (dune (>= 2.0))
-  (js_of_ocaml-ppx (>= 3.6))))
+  (js_of_ocaml-ppx (>= 5.5))))

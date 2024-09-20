@@ -10,7 +10,7 @@ bug-reports: "https://github.com/ocamlpro/ezjs_cytoscape/issues"
 depends: [
   "ocaml" {>= "4.05"}
   "dune" {>= "2.0"}
-  "js_of_ocaml-ppx" {>= "3.6"}
+  "js_of_ocaml-ppx" {>= "5.5"}
 ]
 build: [
   ["dune" "subst"] {pinned}
